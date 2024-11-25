@@ -28,7 +28,9 @@ export default function RootLayout({ children }: Props) {
               />
             </header>
 
-            <main className={styles.main}>{children}</main>
+            <main className={styles.main}>
+              {children}
+            </main>
 
             <footer className={styles.footer}>
               <span>Learn </span>

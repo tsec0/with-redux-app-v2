@@ -32,6 +32,7 @@ export const Quotes = () => {
       <div className={styles.container}>
         <h3>Select the Quantity of Quotes to Fetch:</h3>
         <select
+          title={`These are ${numberOfQuotes}`}
           className={styles.select}
           value={numberOfQuotes}
           onChange={(e) => {
